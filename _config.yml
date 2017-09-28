@@ -1,0 +1,40 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: scalamicroservices
+google_analytics: scalamicroservices
+title: scala microservices
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Scala Microservices - An introduction
+
+description: Stylish Jekyll Theme
+author:
+  name: scalamicroservices
+  email: purijatin@gmail.com 
+  github: scalamicroservices
+  twitter: scalamicroservices
+
+  bio: Design, build, and run Microservices using Scala elegantly
+
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+sidebar_avatar_small_image: https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9781786469342.png
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
